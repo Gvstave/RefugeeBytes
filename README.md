@@ -15,8 +15,13 @@ Pull requests are welcome.
 - We also had challenge of finding the exact images that were required, and after some many minutes later, we managed to find them and add them on the site.
   
 - ⁠lessons learned
-  Commit changes: This helps us to write clear and concise commit messages explaining the changes being made, which then improves collaboration and the whole process at large.
+  Commit changes(Diana): This helps us to write clear and concise commit messages explaining the changes being made, which then improves collaboration and the whole process at large.
+  Team collaboration(Gustave): This helps us to work together with colleague.
+  Media queries(Racheal): This has helped us to learn responsive web design.
   
 - ⁠upcoming features
+  Links: the next upcoming features will include making the links linking to actaul websites and other pages
+  Screen support: Make the website responsive to a variety of screen sizes;
+  
   
 - ⁠link to the deployed version (https://gvstave.github.io/RefugeeBytes/)
