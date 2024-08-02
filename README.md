@@ -9,5 +9,6 @@
 - ⁠lessons learned
   Commit changes: This helps us to write clear and concise commit messages explaining the changes being made, which then improves collaboration and the whole process at large.
   
-- ⁠upcoming features 
+- ⁠upcoming features
+  
 - ⁠link to the deployed version
