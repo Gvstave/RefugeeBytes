@@ -71,8 +71,13 @@ main a {
 }
 
 .blue-bg:hover {
-    background-color: white;
-    color: rgb(26, 9, 58);
+    background-color: rgb(26, 9, 58);
+    color: white;
+}
+
+.none-bg:hover {
+    background-color: none;
+    color: ;
 }
 
 .main-content section {
@@ -148,6 +153,7 @@ footer div ul li {
     display: inline-block;
     font-weight: bold;
     border-radius: 2px;
+    border: 1px solid rgb(26, 9, 58);
 }
 
 .icons-holder img {
