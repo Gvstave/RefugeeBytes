@@ -1,7 +1,13 @@
- -list of team members
+# RefugeeBytes
+RefugeeBytes is a community where refugee students learn programming skills and other technology skills so that they apply the knowledge to reach out to other refugees.
+
+-list of team members
  1. Gustave Ahishakiye Ilunga
  2. Racheal Milele
  3. Diana Ishimwe
+
+## Contributing
+Pull requests are welcome.
     
 - ⁠challenges faced
   As a team, we had a challenge of finding the footer backgroung color, but later managed to employ an item called, 'Color Selector' which then gave a perfect color-fit.
