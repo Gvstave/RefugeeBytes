@@ -70,6 +70,11 @@ main a {
     background-color: rgb(26, 9, 58);
 }
 
+.blue-bg:hover {
+    background-color: white;
+    color: rgb(26, 9, 58);
+}
+
 .main-content section {
     display: flex;
     flex-direction: row;
