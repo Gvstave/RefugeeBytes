@@ -92,6 +92,7 @@ main a {
 
 .main-content p {
     color: rgb(34, 47, 100);
+    line-height: 30px;
 }
 
 /*The end of home and main content styling*/
@@ -164,10 +165,6 @@ footer div ul li {
     h1 {
         font-size: 3em;
         color: rgb(26, 9, 58);
-    }
-
-    p {
-        color: rgb(90, 52, 139);
     }
 
     .main-content section {
