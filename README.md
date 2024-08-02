@@ -13,4 +13,4 @@
   
 - ⁠upcoming features
   
-- ⁠link to the deployed version
+- ⁠link to the deployed version (https://gvstave.github.io/RefugeeBytes/)
