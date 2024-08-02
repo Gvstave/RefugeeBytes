@@ -71,13 +71,13 @@ main a {
 }
 
 .blue-bg:hover {
-    background-color: rgb(26, 9, 58);
-    color: white;
+    background-color: white;
+    color: rgb(26, 9, 58);
 }
 
 .none-bg:hover {
-    background-color: none;
-    color: ;
+    background-color: rgb(26, 9, 58);
+    color: white;
 }
 
 .main-content section {
