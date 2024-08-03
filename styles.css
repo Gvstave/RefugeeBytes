@@ -243,6 +243,7 @@ footer span:nth-child(2) .for-right a:hover {
     footer {
         padding: 0px 20px;
         bottom: 0;
+        margin-top: 100px;
     }
     
     footer span:nth-child(1){
