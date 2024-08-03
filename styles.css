@@ -122,8 +122,9 @@ main .main-content span {
 
 footer {
     background-color: rgba(231, 236, 255, 255);
-    padding: 60px 30px 2px 60px;
+    padding: 60px 60px 2px 60px;
     bottom: 0;
+    margin-top: 100px;
 }
 
 footer span:nth-child(1){
@@ -243,7 +244,6 @@ footer span:nth-child(2) .for-right a:hover {
     footer {
         padding: 0px 20px;
         bottom: 0;
-        margin-top: 100px;
     }
     
     footer span:nth-child(1){
