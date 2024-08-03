@@ -1,216 +1,295 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-/*This attributes apply to a large number of elements*/
+body {
+    background-color: white;
+}
+
+/*General styling begins*/
+
+h1 {
+    color: rgb(26, 9, 58);
+}
 
 h2 {
-    color: rgb(31, 31, 31);
+   color: rgb(26, 9, 58);
 }
 
 p {
-    color: rgb(34, 47, 100);
+    color: rgb(37, 60, 150);
+    line-height: 30px;
+    margin: 10px 0px;
 }
 
 a {
-    text-align: center;
     text-decoration: none;
-    font-family: inherit;
+    color: initial;
+    text-align: center;
 }
+/*General styling ends*/
 
-main a {
-    width: 150px;
-    height: auto;
-    padding: 10px 18px;
-    display: inline-block;
-    font-weight: bold;
-    border-radius: 2px;
-    margin-right: 50px;
-    color: rgb(26, 9, 58);
-}
-
-/*The ending*/
-
-/*The beginning of home content and main content styling*/
-
-.home-content-holder {
+/*Header styling begins*/
+header {
     width: 100%;
     height: 100vh;
-    background-image: url(images/designer_1.svg);
+    background-image: url(images/designer.svg);
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: contain;
+    background-attachment: scroll;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
-.home-content {
-    top: 0;
-    position: absolute;
-    margin: 100px;
-    padding: 4em;
-    max-width: 50%;
+header #header-content {
+    width: 800px;
+    height: 300px;
+    margin-left: 200px;
 }
 
-.home-content h1{
-    font-size: 3em;
+header a {
+    border: 1px solid rgb(26, 9, 58);
+    width: 160px;
+    height: auto;
+    padding: 8px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 10px 50px 0px 0px;
     color: rgb(26, 9, 58);
 }
 
-.home-content p {
-    color: rgb(34, 47, 100);
-    line-height: 30px;
-    padding: 0px 100px 0px 0px;
-}
+/*header #header-content #header-buttons a{
+    margin: 10px 50px 0px 0px;
+}*/
 
 .blue-bg {
-    color: white;
     background-color: rgb(26, 9, 58);
+    color: white;
 }
 
 .blue-bg:hover {
-    background-color: white;
+    background-color: rgba(231, 236, 255, 255);
     color: rgb(26, 9, 58);
 }
 
-.none-bg:hover {
-    background-color: rgb(26, 9, 58);
-    color: white;
+.white-bg-link:hover {
+    background-color: rgba(231, 236, 255, 255);
+}
+/*Header styling ends*/
+
+/*main styling begins*/
+main {
+    padding: 20px;
 }
 
-.main-content section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background: white;
-    padding: 2em 7em;
+main div img {
+    width: 450px;
+    height: auto;
     overflow: hidden;
 }
 
-#special {
-    height: 300px;
-    margin-bottom: 60px;
+main .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
 }
 
-.main-content section img {
-    width: 560px;
+main .main-content a {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid rgb(26, 9, 58);
+    width: 160px;
     height: auto;
+    padding: 8px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 10px 50px 0px 0px;
 }
 
-.main-content p {
-    color: rgb(34, 47, 100);
-    line-height: 30px;
+main .main-content span {
+    width: 100%;
+    height: 100%;
 }
+/*main styling ends*/
 
-/*The end of home and main content styling*/
-
-/*Footer styling begins*/
 footer {
     background-color: rgba(231, 236, 255, 255);
+    padding: 60px 30px 2px 60px;
     bottom: 0;
-    padding: 1px 30px;
-    display: block;
 }
 
-footer div ul {
-    list-style-type: none;
+footer span:nth-child(1){
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding: 0px 0px;
     align-items: center;
+    border-bottom: 1px solid rgb(217, 226, 238);
+    padding: 0px 0px 20px 0px;
 }
 
-footer div ul li {
-    margin: 0px;
-}
-
-.top-footer{
-    padding: 10px;
-    border-bottom: 1px solid gray;
-}
-
-.top-footer li {
-    margin: 10px;
-}
-
-.bottom-footer ul li a{
-   margin: 20px;
-   color: rgb(34, 47, 100);
-}
-
-.copyright {
-   color: rgb(34, 47, 100);
-}
-
-.join {
-    width: 90px;
+footer span:nth-child(1) .join-us {
+    width: 120px;
     height: auto;
-    padding: 8px 14px;
-    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
     font-weight: bold;
-    border-radius: 2px;
     border: 1px solid rgb(26, 9, 58);
 }
 
-.icons-holder img {
+footer span:nth-child(1) .join-us:hover {
+    border: 1px solid rgb(26, 9, 58);
+}
+
+footer span:nth-child(2) ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 15px 0px 30px 0px;
+}
+
+footer .footer-icons img {
     width: 20px;
     height: 20px;
 }
 
+footer span:nth-child(2) .for-left a{
+    margin-left: 0;
+    margin-right: 72px;
+    color: rgb(37, 60, 150);
+    text-decoration: none;
+} 
 
+footer span:nth-child(2) .for-left a:hover {
+    text-decoration: underline;
+}
 
-@media screen and (max-width: 780px) {
-    main a {
+footer span:nth-child(2) .for-left a:active {
+    color: red;
+}
+
+footer span:nth-child(2) .for-right a{
+    margin-left: 22px;
+    margin-right: 0;
+} 
+
+footer span:nth-child(2) .for-right a:hover {
+    background-color: rgb(26, 9, 58);
+}
+
+/*Beginning of the media queries for tablet and phone screen sizes begins*/
+@media screen and (max-width: 762px){
+
+    /*General styling begins*/
+    header #header-content {
         width: auto;
         height: auto;
-        padding: 10px 18px;
-        display: inline;
-        font-weight: bold;
-        border: 1px solid rgb(26, 9, 58);
-        border-radius: 2px;
-        margin-right: 50px;
-        color: rgb(26, 9, 58);
+        margin: 20px;
     }
 
-    .home-content {
-        top: 0;
-        position: absolute;
-        margin: 0px auto;
-        padding: 1em;
-        max-width: 100%;
-    }
-
-    .home-content-holder {
-        width: 100%;
-        height: 100vh;
-        background-image: url(images/designer_1.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        border-bottom: 1px solid gray;
-    }
-
-    h1 {
-        font-size: 3em;
-        color: rgb(26, 9, 58);
-    }
-
-    .main-content section {
+    header #header-links {
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    header a, main a {
+        margin: 0;
+        width: 150px;
+    }
+    /*General styling ends*/
+    
+    /*Header styling begins*/
+    header {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    /*Header styling ends*/
+    
+    /*main styling begins*/
+    main {
+        padding: 0px 20px;
+    }
+
+    main div span:nth-child(1) {
+        margin: 50px 0px;
+        display: flex;
+        justify-content: center;
+    } 
+    
+    main div {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+    
+    main a {
+        margin-bottom: 50px;
+    }
+    /*main styling ends*/
+
+    /*footer styling begins*/
+    footer {
+        padding: 0px 20px;
+        bottom: 0;
+    }
+    
+    footer span:nth-child(1){
+        display: flex;
         justify-content: space-between;
         align-items: center;
-        background: white;
-        padding: 2em;
-        overflow: hidden;
+        border-bottom: 1px solid rgb(217, 226, 238);
+        padding: 20px 0px;
     }
-
-    .bottom-footer ul {
+    footer span:nth-child(2) ul{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        padding: 0px 0px;
+    }
+
+    footer span:nth-child(2) ul li {
+        width: 100%;
+        padding: 20px 0px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer span:nth-child(2) .for-left {
+        border-bottom: 1px solid rgb(217, 226, 238);
+    }
+
+    footer span:nth-child(2) .for-left a{
+        margin-left: 0;
+        margin-right: 0;
+        text-decoration: none;
+    } 
+    
+    footer span:nth-child(2) .for-right a{
+        margin-left: 0;
+        margin-right: 0;
+    } 
+    /*footer styling ends*/
+    
+}
+/*Media query for phones and tablets screen sizes ends*/
+
+/*Beginning of the media query forphone screen sizes only, begins*/
+@media screen and (max-width: 652px){
+    header {
+        background-image: none;
     }
 }
